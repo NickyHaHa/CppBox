@@ -24,7 +24,7 @@ int main(){
         int left = group - (sum - cut);
 
         for(int i = t; i >= 0, left+1 > 0; i--){
-            //arr[1]++ = 4, arr[0]++ = 2
+            //arr[1]++ = 4, arr[0]++ = 3
             arr[ i ]++;
             left--;
             //If plus a round, then go next round

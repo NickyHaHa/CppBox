@@ -17,7 +17,7 @@ int main(){
     {
         if(A == 0 && B == 0)break;
 
-        //Caculate A that how much bill need to pay
+        //Caculate A that how much cwh used
         //EX: A=35515->A>200,total+100,A-200
         //A=35315->A>29700,total+9900,A-29700
         //A=5615->A/5=1123,total+1123=11123
@@ -60,7 +60,7 @@ int main(){
 
 long long int consume(int x){
 
-    //Give bill to find electricity used
+    //Give electicity used to find bill to pay
     //EX: x=10123->x>100,cs+200,x-100
     //x=10023->x>9900,cs+29700,x-9900
     //x=123->cs+(123*5)=30515
